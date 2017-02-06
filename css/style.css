@@ -1,0 +1,412 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Open Sans;
+    font-size: 16px;
+}
+
+div{
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.header{
+	height: 200px;
+	width: 100%;
+}
+.logo {
+    background-image: url(../img/coachlogo.jpg);
+    background-size: contain;
+    width: 511px;
+    height: 150px;
+    margin-left: 30%;
+    display: inherit;
+}
+.top-nav {
+    background-color: #02b1eb;
+    color: #ffffff;
+    width: 100%;
+    top: 150px;
+    position: fixed;
+    z-index: 1;
+    display: block;
+    text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.top-nav ul{
+	padding: 0px 20% 0px 17%;
+    margin: 0px;
+}
+.top-nav ul li{
+	display: inline-block;
+    padding-top: 25px;
+    width: 135px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    height: 50px;
+    position: relative;
+}
+
+.top-nav ul li:hover{
+	color: rgb(243, 133, 54);
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.image-wrapper{
+	height: 300px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 225px;
+}
+
+.main-image{
+	display: block;
+	position: relative;
+	background-image: url("../img/main-image.webp");
+	background-size: cover;
+	height: 100%;
+}
+.main-image::after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(55, 55, 55, 0.2);
+}
+.description{
+	position: absolute;
+	top: 70px;
+	left: 60px;
+	color: #ffffff;
+	width: 500px;
+}
+.description h2{
+	line-height: 1.1 em;
+}
+
+.mid-nav {
+    margin-top: 325px;
+    padding: 35px;
+}
+.nav-widget {
+    display: inline-block;
+    width: 400px;
+    height: 280px;
+    background-color: #4e5a61;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 28px;
+    color: #ffffff;
+    text-align: center;
+}
+.users-img {
+    margin-left: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/users.png);
+}
+.blog-img {
+    margin-left: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/blog-img.png);
+}
+
+.find-img {
+    margin-left: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/find.png);
+}
+
+.nav-widget a {
+    display: block;
+    background-color: #02b1eb;
+    width: 110px;
+    height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1px;
+    margin-left: 115px;
+}
+
+.query-img-wrapper{
+	height: 300px;
+	width: 100%;
+	position: relative;
+}
+
+.query-img {
+    background-image: url(../img/coachingimage1.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position-y: -150px;
+    color: rgb(243, 133, 54);
+    padding: 65px;
+    
+}
+
+.query-img::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(55, 55, 55, 0.7);
+}
+
+.query-text{
+	position: absolute;
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	width: 100%;
+	top: 30%;
+}
+
+.query-text a {
+    display: block;
+    background-color: #02b1eb;
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 5px;
+    margin-left: 590px;
+}
+.content-wrapper{
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.media-container h2{
+	text-align: center;
+	margin-top: 30px;
+}
+
+form{
+	border-style: solid;
+	border-color: grey;
+	border-radius: 5px;
+	margin:40px 50px 0 0;
+	float: right;
+}
+.search{
+	display:inline-block;
+}
+.search input{
+    width: 100%;
+    height: 29px;
+    line-height: 29px;
+    background-color: transparent;
+    border: 0px;
+    font-family: Arial, Tahoma, 'RobotoLight', Arial;
+    font-size: 24px;
+    color: #b5b7b8;
+}
+
+.button{
+	float: right;
+}
+
+.button input {
+    width: 45px;
+    height: 30px;
+    display: block;
+    background: url(http://bestcoach.me/layout/images/icon_search_1.png) no-repeat 15px 3px;
+    border: 0px;
+    font-size: 0px;
+    text-indent: -9000px;
+    cursor: pointer;
+}
+
+.quote_box{
+	background-image: url(../img/icon-quote.png);
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    font-family: georgia;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 70px!important;
+    height: 40px;
+}
+
+.avatar{
+	display: block;
+	background-image: url(../img/avatar.jpg);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    margin-left: 200px;
+}
+
+.skills{
+	text-align: center;
+}
+
+.location-icon{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-image: url(../img/marker.png);
+}
+
+.location-block h4{
+	margin: 0px;
+	display: inline-block;
+}
+
+.media-container .social-links{
+	position: relative;
+	margin-top: 20px;
+}
+
+.media-container .social-links .facebook{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/social-media/portfolio/facebook.png);
+	background-size: cover;
+	margin-right: 10px;
+}
+
+.media-container .social-links .twitter{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/social-media/portfolio/twitter.png);
+	background-size: cover;
+	margin-right: 10px;
+}
+
+.media-container .social-links .vk{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/social-media/portfolio/vk.png);
+	background-size: cover;
+	margin-right: 10px;
+}
+
+.media-container .social-links .linkedin{
+	display: inline-block;
+	width:30px;
+	height: 30px;
+	background-image: url(../img/social-media/portfolio/linkedin.png);
+	background-size: cover;
+}
+
+.info {
+    width: 48%;
+    display: inline-block;
+    left: 51%;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.audio{
+	width: 370px;
+    height: 100px;
+}
+
+.media-container{
+	width:48%;
+	position: fixed;
+	top: 200px;
+	text-align: center;
+}
+
+.order{
+    font-size: 16px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #7af0ad;
+    text-align: center;
+    padding: 10px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5%;
+    text-decoration: none;
+}
+
+.footer{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	top: -5px;
+	background-color: #4e5a61;
+}
+
+.footer-widget{
+	display: inline-block;
+    width: 600px;
+    height: 100%;
+    margin: 10px;
+    padding: 28px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-logo{
+	width: 511px;
+	height: 150px;
+	background-image: url(../img/footer-logo.png);
+	position: absolute;
+	top: 20px;
+	left: 44px;
+	float: left;
+}
+
+.footer-widget .social-links{
+	position: relative;
+	top: 100px;
+}
+
+.footer-widget .social-links .facebook{
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	background-image: url(../img/social-media/footer/facebook.png);
+	background-size: cover;
+	margin-right: 10px;
+}
+
+.footer-widget .social-links .twitter{
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	background-image: url(../img/social-media/footer/twitter.png);
+	background-size: cover;
+	margin-right: 10px;
+}
+
+.footer-widget .social-links .vk{
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	background-image: url(../img/social-media/footer/vk.png);
+	background-size: cover;
+	margin-right: 10px;
+}
+
+.footer-widget .social-links .linkedin{
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	background-image: url(../img/social-media/footer/linkedin.png);
+	background-size: cover;
+}
